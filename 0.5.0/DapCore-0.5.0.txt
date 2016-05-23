@@ -1,20 +1,21 @@
 ================================================================================
-2016-05-23 04:01:29.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
+2016-05-23 04:06:08.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-commit ac07240998f96b19d8417bd35e67ba16199cd6df (HEAD -> master, origin/master)
+commit 6751f8208c5c1b0c777e90fcb3bd9c4cf6a379b9 (HEAD -> master)
 Author: YJ Park <yjpark@gmail.com>
-Date:   Mon May 23 12:01:04 2016 +0800
+Date:   Mon May 23 12:05:58 2016 +0800
 
-    add git summary to release
+    update makefile
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 On branch master
-Your branch is up-to-date with 'origin/master'.
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 
-	modified:   Releases (untracked content)
+	modified:   Releases (modified content)
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -22,6 +23,6 @@ diff --git a/Releases b/Releases
 --- a/Releases
 +++ b/Releases
 @@ -1 +1 @@
--Subproject commit a658825b0c9f99c71c8e95465797a2d64990ba79
-+Subproject commit a658825b0c9f99c71c8e95465797a2d64990ba79-dirty
+-Subproject commit 2d805bae8a5e2daa68240eeb4cfb64a2cfd7c005
++Subproject commit 2d805bae8a5e2daa68240eeb4cfb64a2cfd7c005-dirty
 ================================================================================
