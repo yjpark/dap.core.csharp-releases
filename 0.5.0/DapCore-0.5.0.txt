@@ -1,15 +1,14 @@
 ================================================================================
-2016-05-23 04:06:08.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
+2016-05-23 04:42:51.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-commit 6751f8208c5c1b0c777e90fcb3bd9c4cf6a379b9 (HEAD -> master)
+commit 0b14295371b2527813c8d34ffbfe4b69c7d22416 (HEAD -> master, origin/master)
 Author: YJ Park <yjpark@gmail.com>
-Date:   Mon May 23 12:05:58 2016 +0800
+Date:   Mon May 23 12:42:35 2016 +0800
 
-    update makefile
+    bugfix with namespace
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -23,6 +22,6 @@ diff --git a/Releases b/Releases
 --- a/Releases
 +++ b/Releases
 @@ -1 +1 @@
--Subproject commit 2d805bae8a5e2daa68240eeb4cfb64a2cfd7c005
-+Subproject commit 2d805bae8a5e2daa68240eeb4cfb64a2cfd7c005-dirty
+-Subproject commit 88fef32b16c4bf763122acabce4e1606d343ba61
++Subproject commit 88fef32b16c4bf763122acabce4e1606d343ba61-dirty
 ================================================================================
