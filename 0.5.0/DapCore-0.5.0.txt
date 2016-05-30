@@ -1,48 +1,28 @@
 ================================================================================
-2016-05-27 06:20:28.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
+2016-05-30 12:21:59.N [/Users/yjpark/projects/angeldnd/unity-libs/Includes/dap.core.csharp]
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-commit 866b6ba5657d9a8bd99e144819aff0a154ac94f5 (HEAD -> master, origin/master)
+commit 677afc9583731cf291ee43c1cb6219db7ef7a862 (HEAD -> master, origin/master)
 Author: YJ Park <yjpark@gmail.com>
-Date:   Wed May 25 18:57:57 2016 +0800
+Date:   Mon May 30 20:15:28 2016 +0800
 
-    track msg count in Bus
+    bugfix with Bus
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 On branch master
 Your branch is up-to-date with 'origin/master'.
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   Makefile
-
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 
-	modified:   Releases (modified content, untracked content)
+	modified:   Releases (new commits, modified content)
 
+no changes added to commit (use "git add" and/or "git commit -a")
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-diff --git a/Makefile b/Makefile
-index ac8abf7..0801e8b 100644
---- a/Makefile
-+++ b/Makefile
-@@ -5,9 +5,9 @@ build:
- 	xbuild Scripts/DapCore.sln
- 	rm Releases/$(version)/*
- 	cp Releases/Latest/Dap* Releases/$(version)/
--	cd Releases/$(version) ; mmv -v "Dap*.dll" "Dap#1-$(version).dll"
--	cd Releases/$(version) ; mmv -v "Dap*.dll.mdb" "Dap#1-$(version).dll.mdb"
--	cd Releases/$(version) ; mmv -v "Dap*.xml" "Dap#1-$(version).xml"
-+	#cd Releases/$(version) ; mmv -v "Dap*.dll" "Dap#1-$(version).dll"
-+	#cd Releases/$(version) ; mmv -v "Dap*.dll.mdb" "Dap#1-$(version).dll.mdb"
-+	#cd Releases/$(version) ; mmv -v "Dap*.xml" "Dap#1-$(version).xml"
- 	cd Releases/$(version) ; git checkout *.meta
- 	tools/git-local-summary > Releases/$(version)/DapCore-$(version).txt
- 
 diff --git a/Releases b/Releases
+index e094048..a0e545c 160000
 --- a/Releases
 +++ b/Releases
 @@ -1 +1 @@
--Subproject commit 3d91db87a317359a7b767a08f42053bc677b035e
-+Subproject commit 3d91db87a317359a7b767a08f42053bc677b035e-dirty
+-Subproject commit e094048c96532593efaef48d873cfd09822f7455
++Subproject commit a0e545c4ea6753fb30247aba6d96a0813cb338d1-dirty
 ================================================================================
